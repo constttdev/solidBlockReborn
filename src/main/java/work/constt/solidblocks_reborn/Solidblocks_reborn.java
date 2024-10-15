@@ -9,7 +9,6 @@ import static work.constt.solidblocks_reborn.registries.itemRegistry.SB_GROUP;
 import static work.constt.solidblocks_reborn.registries.itemRegistry.SB_GROUP_KEY;
 
 public class Solidblocks_reborn implements ModInitializer {
-    // var for mod id!
     public static final String MOD_ID = "solidblocks_reborn";
 
     @Override
