@@ -1,6 +1,7 @@
 package work.constt.solidblocks_reborn.registries;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -20,7 +21,7 @@ public class itemRegistry {
         return registeredItem;
     }
 
-    public static final RegistryKey<ItemGroup> SB_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(Solidblocks_reborn.MOD_ID, "item_group"));
+    public static final RegistryKey<ItemGroup> SB_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(Solidblocks_reborn.MOD_ID, "itemGroup"));
     public static final ItemGroup SB_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Items.WHITE_CONCRETE))
             .displayName(Text.translatable("itemGroup.solidblocks_reborn"))

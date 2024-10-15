@@ -16,7 +16,37 @@ public class blockRegistry {
     public static final Block SOLID_RED = register(
             new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
             "solid_red",
-            false
+            true
+    );
+
+    public static final Block SOLID_PINK = register(
+            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_pink",
+            true
+    );
+
+    public static final Block SOLID_PURPLE = register(
+            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_purple",
+            true
+    );
+
+    public static final Block SOLID_ROSE = register(
+            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_rose",
+            true
+    );
+
+    public static final Block SOLID_BLUE = register(
+            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_blue",
+            true
+    );
+
+    public static final Block SOLID_AQUA = register(
+            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_aqua",
+            true
     );
 
     public static Block register(Block block, String name, boolean shouldRegisterItem) {
