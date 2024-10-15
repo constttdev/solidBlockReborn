@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "solidblocks_reborn",
+  "version": "0.0.1",
+  "name": "SolidBlocks Reborn",
+  "description": "Just many solid blocks",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/solidblocks_reborn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "work.constt.solidblocks_reborn.client.Solidblocks_rebornClient"
+    ],
+    "main": [
+      "work.constt.solidblocks_reborn.Solidblocks_reborn"
+    ]
+  },
+  "mixins": [
+    "solidblocks_reborn.mixins.json",
+    {
+      "config": "solidblocks_reborn.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}

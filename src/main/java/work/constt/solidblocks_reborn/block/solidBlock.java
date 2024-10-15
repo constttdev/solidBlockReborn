@@ -9,8 +9,8 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
-public class solidRed extends Block {
-    public solidRed(Settings settings) {
+public class solidBlock extends Block {
+    public solidBlock(Settings settings) {
         super(settings);
     }
 

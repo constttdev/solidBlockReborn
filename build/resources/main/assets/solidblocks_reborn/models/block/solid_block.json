@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "solidblocks_reborn:block/solid_block"
+  }
+}

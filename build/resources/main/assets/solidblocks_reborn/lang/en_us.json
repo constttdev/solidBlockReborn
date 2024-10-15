@@ -1,0 +1,10 @@
+{
+  "_comment": "Blocks",
+  "block.solidblocks_reborn.solid_red": "§cSolid Block (Red)",
+
+  "_comment": "ItemTooltips",
+  "itemTooltip.solid_red": "A Solid Block of red",
+
+  "_comment": "ItemGroups",
+  "itemGroup.solidblocks_reborn": "Solid Blocks Reborn",
+}

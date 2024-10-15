@@ -20,7 +20,21 @@ public class Solidblocks_reborn implements ModInitializer {
         Registry.register(Registries.ITEM_GROUP, SB_GROUP_KEY, SB_GROUP);
 
         ItemGroupEvents.modifyEntriesEvent(SB_GROUP_KEY).register(itemGroup -> {
-            itemGroup.add(blockRegistry.SOLID_RED);
+            itemGroup.add(blockRegistry.SOLID_PINK);
+            itemGroup.add(blockRegistry.SOLID_PURPLE);
+            itemGroup.add(blockRegistry.SOLID_ROSE);
+            itemGroup.add(blockRegistry.SOLID_BLUE);
+            itemGroup.add(blockRegistry.SOLID_AQUA);
+            itemGroup.add(blockRegistry.SOLID_GREEN);
+            itemGroup.add(blockRegistry.SOLID_LIME);
+            itemGroup.add(blockRegistry.SOLID_GREY);
+            itemGroup.add(blockRegistry.SOLID_BLACK);
+            itemGroup.add(blockRegistry.SOLID_WHITE);
+            itemGroup.add(blockRegistry.SOLID_YELLOW);
+            itemGroup.add(blockRegistry.SOLID_BROWN);
+            itemGroup.add(blockRegistry.SOLID_ORANGE);
+            itemGroup.add(blockRegistry.SOLID_CYAN);
+
         });
     }
 }

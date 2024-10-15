@@ -9,45 +9,96 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import work.constt.solidblocks_reborn.Solidblocks_reborn;
-import work.constt.solidblocks_reborn.block.solidRed;
+import work.constt.solidblocks_reborn.block.solidBlock;
 
 public class blockRegistry {
 
-    public static final Block SOLID_RED = register(
-            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
-            "solid_red",
-            true
-    );
-
     public static final Block SOLID_PINK = register(
-            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
             "solid_pink",
             true
     );
 
     public static final Block SOLID_PURPLE = register(
-            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
             "solid_purple",
             true
     );
 
     public static final Block SOLID_ROSE = register(
-            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
             "solid_rose",
             true
     );
 
     public static final Block SOLID_BLUE = register(
-            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
             "solid_blue",
             true
     );
 
     public static final Block SOLID_AQUA = register(
-            new solidRed(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
             "solid_aqua",
             true
     );
+
+    public static final Block SOLID_GREEN = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_green",
+            true
+    );
+
+    public static final Block SOLID_LIME = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_lime",
+            true
+    );
+
+    public static final Block SOLID_GREY = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_grey",
+            true
+    );
+
+    public static final Block SOLID_BLACK = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_black",
+            true
+    );
+
+    public static final Block SOLID_WHITE = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_white",
+            true
+    );
+
+    public static final Block SOLID_YELLOW = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_yellow",
+            true
+    );
+
+    public static final Block SOLID_BROWN = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_brown",
+            true
+    );
+
+    public static final Block SOLID_ORANGE = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_orange",
+            true
+    );
+
+    public static final Block SOLID_CYAN = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_cyan",
+            true
+    );
+
+
+
 
     public static Block register(Block block, String name, boolean shouldRegisterItem) {
         Identifier id = Identifier.of(Solidblocks_reborn.MOD_ID, name);
