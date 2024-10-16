@@ -55,9 +55,9 @@ public class blockRegistry {
             true
     );
 
-    public static final Block SOLID_GREY = register(
+    public static final Block SOLID_GRAY = register(
             new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
-            "solid_grey",
+            "solid_gray",
             true
     );
 
@@ -91,13 +91,17 @@ public class blockRegistry {
             true
     );
 
-    public static final Block SOLID_CYAN = register(
+    public static final Block SOLID_TEAL = register(
             new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
-            "solid_cyan",
+            "solid_teal",
             true
     );
 
-
+    public static final Block SOLID_RED = register(
+            new solidBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)),
+            "solid_red",
+            true
+    );
 
 
     public static Block register(Block block, String name, boolean shouldRegisterItem) {

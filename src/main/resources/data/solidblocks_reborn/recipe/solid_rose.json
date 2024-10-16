@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:magenta_concrete"
+        },
+        "S": {
+            "item": "solidblocks_reborn:solidifier"
+        }
+    },
+    "result": {
+        "id": "solidblocks_reborn:solid_rose",
+        "count": 1
+    }
+}

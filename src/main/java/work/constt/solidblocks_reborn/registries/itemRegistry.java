@@ -12,8 +12,28 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import work.constt.solidblocks_reborn.Solidblocks_reborn;
+import work.constt.solidblocks_reborn.item.solidCore;
+import work.constt.solidblocks_reborn.item.solidHandle;
+import work.constt.solidblocks_reborn.item.solidifier;
 
 public class itemRegistry {
+
+    public static final Item SOLIDIFIER = register(
+            new solidifier(new Item.Settings()),
+            "solidifier"
+    );
+
+    public static final Item SOLID_CORE = register(
+            new solidCore(new Item.Settings()),
+            "solid_core"
+    );
+
+    public static final Item SOLID_HANDLE = register(
+            new solidHandle(new Item.Settings()),
+            "solid_handle"
+    );
+
+
 
     public static Item register(Item item, String id) {
         Identifier itemID = Identifier.of(Solidblocks_reborn.MOD_ID, id);

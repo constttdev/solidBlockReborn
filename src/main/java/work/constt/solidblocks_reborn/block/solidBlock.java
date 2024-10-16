@@ -13,9 +13,4 @@ public class solidBlock extends Block {
     public solidBlock(Settings settings) {
         super(settings);
     }
-
-    @Override
-    public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("itemTooltip.solid_red").formatted(Formatting.WHITE));
-    }
 }

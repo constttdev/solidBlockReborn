@@ -1,10 +1,28 @@
 {
-  "_comment": "Blocks",
-  "block.solidblocks_reborn.solid_red": "§cSolid Block (Red)",
+  "block.solidblocks_reborn.solid_red": "Solid Block (§cRed§f)",
+  "block.solidblocks_reborn.solid_pink": "Solid Block (§dPink§f)",
+  "block.solidblocks_reborn.solid_purple": "Solid Block (§5Purple§f)",
+  "block.solidblocks_reborn.solid_rose": "Solid Block (§cRose§f)",
+  "block.solidblocks_reborn.solid_blue": "Solid Block (§9Blue§f)",
+  "block.solidblocks_reborn.solid_aqua": "Solid Block (§bAqua§f)",
+  "block.solidblocks_reborn.solid_green": "Solid Block (§2Green§f)",
+  "block.solidblocks_reborn.solid_lime": "Solid Block (§aLime§f)",
+  "block.solidblocks_reborn.solid_gray": "Solid Block (§7Gray§f)",
+  "block.solidblocks_reborn.solid_black": "Solid Block (§8Black§f)",
+  "block.solidblocks_reborn.solid_white": "Solid Block (§fWhite§f)",
+  "block.solidblocks_reborn.solid_yellow": "Solid Block (§eYellow§f)",
+  "block.solidblocks_reborn.solid_brown": "Solid Block (§4Brown§f)",
+  "block.solidblocks_reborn.solid_orange": "Solid Block (§6Orange§f)",
+  "block.solidblocks_reborn.solid_teal": "Solid Block (§3Teal§f)",
 
-  "_comment": "ItemTooltips",
+  "item.solidblocks_reborn.solid_handle": "Solid Handle",
+  "item.solidblocks_reborn.solid_core": "Solid Core",
+  "item.solidblocks_reborn.solidifier": "Solidifier",
+
   "itemTooltip.solid_red": "A Solid Block of red",
+  "itemTooltip.solidifier": "§7§oSolidify a concrete block to get the solidified block of it",
+  "itemTooltip.solidHandle": "§7§oUsed to craft the solidifier (50/100)",
+  "itemTooltip.solidCore": "§7§oUsed to craft the solidifier (50/100)",
 
-  "_comment": "ItemGroups",
-  "itemGroup.solidblocks_reborn": "Solid Blocks Reborn",
+  "itemGroup.solidblocks_reborn": "Solid Blocks Reborn"
 }

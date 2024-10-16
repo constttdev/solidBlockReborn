@@ -8,35 +8,39 @@ public class Solidblocks_rebornClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFFC0CB, blockRegistry.SOLID_PINK);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x800080, blockRegistry.SOLID_PURPLE);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFF007F, blockRegistry.SOLID_ROSE);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x0000FF, blockRegistry.SOLID_BLUE);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x00FFFF, blockRegistry.SOLID_AQUA);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x008000, blockRegistry.SOLID_GREEN);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x00FF00, blockRegistry.SOLID_LIME);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x808080, blockRegistry.SOLID_GREY);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x000000, blockRegistry.SOLID_BLACK);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFFFFFF, blockRegistry.SOLID_WHITE);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFFFF00, blockRegistry.SOLID_YELLOW);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xA52A2A, blockRegistry.SOLID_BROWN);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFFA500, blockRegistry.SOLID_ORANGE);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x00FFFF, blockRegistry.SOLID_CYAN);
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFF69B4, blockRegistry.SOLID_PINK);  // Bright Pink
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x9B30FF, blockRegistry.SOLID_PURPLE); // Brighter Purple
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFF1493, blockRegistry.SOLID_ROSE);   // Deep Rose
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x1E90FF, blockRegistry.SOLID_BLUE);   // Dodger Blue
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x00FFFF, blockRegistry.SOLID_AQUA);   // Aqua Cyan
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x00FF00, blockRegistry.SOLID_GREEN);  // Bright Green
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x32CD32, blockRegistry.SOLID_LIME);   // Lime Green
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xA9A9A9, blockRegistry.SOLID_GRAY);   // Bright Grey
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x1C1C1C, blockRegistry.SOLID_BLACK);  // Dark Black
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFFFFFF, blockRegistry.SOLID_WHITE);  // Pure White
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFFFF33, blockRegistry.SOLID_YELLOW); // Bright Yellow
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xD2691E, blockRegistry.SOLID_BROWN);  // Chocolate Brown
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFF8C00, blockRegistry.SOLID_ORANGE); // Dark Orange
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x40E0D0, blockRegistry.SOLID_TEAL);   // Bright Teal
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0xFF0000, blockRegistry.SOLID_RED);   // Red
 
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFFC0CB, blockRegistry.SOLID_PINK);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x800080, blockRegistry.SOLID_PURPLE);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFF007F, blockRegistry.SOLID_ROSE);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x0000FF, blockRegistry.SOLID_BLUE);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x00FFFF, blockRegistry.SOLID_AQUA);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x008000, blockRegistry.SOLID_GREEN);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x00FF00, blockRegistry.SOLID_LIME);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x808080, blockRegistry.SOLID_GREY);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x000000, blockRegistry.SOLID_BLACK);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFFFFFF, blockRegistry.SOLID_WHITE);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFFFF00, blockRegistry.SOLID_YELLOW);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xA52A2A, blockRegistry.SOLID_BROWN);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFFA500, blockRegistry.SOLID_ORANGE);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x00FFFF, blockRegistry.SOLID_CYAN);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFF69B4, blockRegistry.SOLID_PINK);  // Bright Pink
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x9B30FF, blockRegistry.SOLID_PURPLE); // Brighter Purple
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFF1493, blockRegistry.SOLID_ROSE);   // Deep Rose
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x1E90FF, blockRegistry.SOLID_BLUE);   // Dodger Blue
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x00FFFF, blockRegistry.SOLID_AQUA);   // Aqua Cyan
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x00FF00, blockRegistry.SOLID_GREEN);  // Bright Green
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x32CD32, blockRegistry.SOLID_LIME);   // Lime Green
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xA9A9A9, blockRegistry.SOLID_GRAY);   // Bright Grey
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x1C1C1C, blockRegistry.SOLID_BLACK);  // Dark Black
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFFFFFF, blockRegistry.SOLID_WHITE);  // Pure White
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFFFF33, blockRegistry.SOLID_YELLOW); // Bright Yellow
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xD2691E, blockRegistry.SOLID_BROWN);  // Chocolate Brown
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFF8C00, blockRegistry.SOLID_ORANGE); // Dark Orange
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x40E0D0, blockRegistry.SOLID_TEAL);   // Bright Teal
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0xFF0000, blockRegistry.SOLID_RED);   // Red
+
+
 
     }
 }

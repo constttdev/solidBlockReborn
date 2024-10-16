@@ -27,14 +27,18 @@ public class Solidblocks_reborn implements ModInitializer {
             itemGroup.add(blockRegistry.SOLID_AQUA);
             itemGroup.add(blockRegistry.SOLID_GREEN);
             itemGroup.add(blockRegistry.SOLID_LIME);
-            itemGroup.add(blockRegistry.SOLID_GREY);
+            itemGroup.add(blockRegistry.SOLID_GRAY);
             itemGroup.add(blockRegistry.SOLID_BLACK);
             itemGroup.add(blockRegistry.SOLID_WHITE);
             itemGroup.add(blockRegistry.SOLID_YELLOW);
             itemGroup.add(blockRegistry.SOLID_BROWN);
             itemGroup.add(blockRegistry.SOLID_ORANGE);
-            itemGroup.add(blockRegistry.SOLID_CYAN);
+            itemGroup.add(blockRegistry.SOLID_TEAL);
+            itemGroup.add(blockRegistry.SOLID_RED);
 
+            itemGroup.add(itemRegistry.SOLIDIFIER);
+            itemGroup.add(itemRegistry.SOLID_CORE);
+            itemGroup.add(itemRegistry.SOLID_HANDLE);
         });
     }
 }
